@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/task_07_02_droidFight/resources_ENG.properties" />
+    <file url="file://$PROJECT_DIR$/task_07_02_droidFight/resources_UA.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/resources_ENG.properties" />
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/resources_UA.properties" />
+      <base-name>resources</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
