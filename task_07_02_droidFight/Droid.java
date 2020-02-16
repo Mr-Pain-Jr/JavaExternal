@@ -8,7 +8,7 @@ public abstract class Droid {
         System.out.println("I go.");
     }
 
-    public void shoot(Droid d)throws InterruptedException{
+    public void fight(Droid d){
 
     }
 }

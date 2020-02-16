@@ -15,10 +15,15 @@ public class BattleDroid extends Droid {
         System.out.println("I run!");
     }
 
-    public void shoot(Droid d)throws InterruptedException{
-        Thread.sleep(500);
+    public void shoot(Droid d){
         d.energyLevel-=this.damageLevel;
         System.out.println(d.toString()+" has "+d.energyLevel+" health!");
+    }
+
+    @Override
+    public void fight(Droid d){
+        walk();
+        shoot(d);
     }
 
     @Override
