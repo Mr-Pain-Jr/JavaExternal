@@ -66,12 +66,11 @@ public class Model {
 
     }
 
-    public Droid fightBetweenTwoDroids(Droid d1, Droid d2){
+    public void fightBetweenTwoDroids(Droid d1, Droid d2){
         while(giveLoser() == null){
                 d1.fight(d2);
                 d2.fight(d1);
         }
-        return giveLoser();
 
     }
 }
