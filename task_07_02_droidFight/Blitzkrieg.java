@@ -1,7 +1,7 @@
 package task_07_02_droidFight;
 
 
-import Java.util.Scanner;
+import java.util.Scanner;
 
 
 public class Blitzkrieg {
