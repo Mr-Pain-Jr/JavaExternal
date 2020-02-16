@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/Resources.properties" />
+    <file url="file://$PROJECT_DIR$/task_07_02_droidFight/src/Resources_en.properties" />
+    <file url="file://$PROJECT_DIR$/task_07_02_droidFight/src/resources.properties" />
+    <file url="file://$PROJECT_DIR$/task_07_02_droidFight/src/resources_ua.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/src/resources.properties" />
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/src/resources_en.properties" />
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/src/resources_ua.properties" />
+      <base-name>resources</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/Resources.properties" />
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/src/Resources_en.properties" />
+      <file value="file://$PROJECT_DIR$/task_07_02_droidFight/src/Resources_ua.properties" />
+      <base-name>Resources</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

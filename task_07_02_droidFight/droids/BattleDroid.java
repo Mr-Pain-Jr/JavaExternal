@@ -1,4 +1,4 @@
-package task_07_02_droidFight;
+package task_07_02_droidFight.droids;
 
 public class BattleDroid extends Droid {
 

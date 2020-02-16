@@ -1,9 +1,9 @@
-package task_07_02_droidFight;
+package task_07_02_droidFight.droids;
 
 public abstract class Droid {
 
     int damageLevel;
-    int energyLevel;
+    public int energyLevel;
     public void walk(){
         System.out.println("I go.");
     }
