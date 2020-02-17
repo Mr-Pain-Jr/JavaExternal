@@ -15,7 +15,10 @@ public class Registrator {
     }
 
     public void createUserDataFile() throws IOException {
-        file.createNewFile();
+        if(!file.exists()){
+            file.createNewFile();
+        }
+
     }
 
     public boolean isEmailCorrect(String email){
