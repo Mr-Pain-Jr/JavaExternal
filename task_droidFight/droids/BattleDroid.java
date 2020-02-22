@@ -7,6 +7,13 @@ public class BattleDroid extends Droid implements RangedDroid{
     public BattleDroid(){
         this.damageLevel=25;
         this.energyLevel=100;
+        this.onboard="BattleDroid";
+    }
+
+    public BattleDroid(int damage, int energy){
+        this.damageLevel=damage;
+        this.energyLevel=energy;
+        this.onboard="BattleDroid";
     }
 
 
@@ -35,5 +42,8 @@ public class BattleDroid extends Droid implements RangedDroid{
     }
 
 
+    public String save(){
+        return this.onboard+";"+this.damageLevel+";"+this.energyLevel;
+    }
 }
 

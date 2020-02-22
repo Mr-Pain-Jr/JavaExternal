@@ -5,6 +5,13 @@ public class SamuraiDroid extends Droid implements MeleeDroid{
     public SamuraiDroid(){
         this.damageLevel=50;
         this.energyLevel=80;
+        this.onboard="SamuraiDroid";
+    }
+
+    public SamuraiDroid(int damage, int energy){
+        this.damageLevel=damage;
+        this.energyLevel=energy;
+        this.onboard="SamuraiDroid";
     }
 
     @Override
@@ -35,6 +42,10 @@ public class SamuraiDroid extends Droid implements MeleeDroid{
     @Override
     public int compareTo(Droid o) {
         return this.damageLevel - o.damageLevel;
+    }
+
+    public String save(){
+        return this.onboard+";"+this.damageLevel+";"+this.energyLevel;
     }
 }
 

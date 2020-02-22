@@ -6,6 +6,13 @@ public class NinjaDroid extends Droid implements MeleeDroid {
     public NinjaDroid(){
         this.damageLevel=20;
         this.energyLevel=95;
+        this.onboard="NinjaDroid";
+    }
+
+    public NinjaDroid(int damage, int energy){
+        this.damageLevel=damage;
+        this.energyLevel=energy;
+        this.onboard="NinjaDroid";
     }
 
     @Override
@@ -35,5 +42,9 @@ public class NinjaDroid extends Droid implements MeleeDroid {
     @Override
     public int compareTo(Droid o) {
         return this.damageLevel - o.damageLevel;
+    }
+
+    public String save(){
+        return this.onboard+";"+this.damageLevel+";"+this.energyLevel;
     }
 }
