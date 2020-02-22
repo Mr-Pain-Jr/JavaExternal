@@ -1,10 +1,8 @@
-package task_07_02_droidFight;
+package task_droidFight;
 
-import task_07_02_droidFight.registrationAuthorization.mainMenu;
+import task_droidFight.registrationAuthorization.mainMenu;
 
 import java.io.IOException;
-import java.util.Locale;
-import java.util.ResourceBundle;
 
 public class TryThisFight {
     public static void main(String[] args) throws IOException {

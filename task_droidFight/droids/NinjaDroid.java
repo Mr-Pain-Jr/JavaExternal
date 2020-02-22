@@ -1,6 +1,4 @@
-package task_07_02_droidFight.droids;
-
-import task_07_02_droidFight.droids.Droid;
+package task_droidFight.droids;
 
 public class NinjaDroid extends Droid {
 

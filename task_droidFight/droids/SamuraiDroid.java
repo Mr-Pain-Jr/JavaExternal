@@ -1,4 +1,4 @@
-package task_07_02_droidFight.droids;
+package task_droidFight.droids;
 
 public class SamuraiDroid extends Droid {
 

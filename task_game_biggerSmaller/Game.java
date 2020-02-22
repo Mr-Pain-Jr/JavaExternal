@@ -1,4 +1,4 @@
-package task_05_02_game;
+package task_game_biggerSmaller;
 import java.lang.Math;
 import java.util.Scanner;
 

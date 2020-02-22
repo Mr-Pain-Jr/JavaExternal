@@ -1,8 +1,6 @@
-package task_07_02_droidFight;
+package task_droidFight;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 
 public class Controller {

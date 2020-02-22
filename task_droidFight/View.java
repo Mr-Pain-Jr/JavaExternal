@@ -1,7 +1,6 @@
-package task_07_02_droidFight;
+package task_droidFight;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class View {

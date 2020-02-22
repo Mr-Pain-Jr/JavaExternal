@@ -1,7 +1,7 @@
-package task_07_02_droidFight;
+package task_droidFight;
 
 
-import task_07_02_droidFight.droids.*;
+import task_droidFight.droids.*;
 
 import java.io.IOException;
 import java.util.Scanner;
