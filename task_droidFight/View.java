@@ -31,4 +31,12 @@ public class View {
         }
     }
 
+    public void whatAdminWant(){
+        System.out.println("What do you want to do? (1 - look on all droids, 2 - add droid, 3 - edit droid (need index in array), 4 - delete droid ");
+    }
+
+
+
+
+
 }
