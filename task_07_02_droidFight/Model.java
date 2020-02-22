@@ -1,10 +1,7 @@
 package task_07_02_droidFight;
 
 
-import task_07_02_droidFight.droids.BattleDroid;
-import task_07_02_droidFight.droids.Droid;
-import task_07_02_droidFight.droids.NinjaDroid;
-import task_07_02_droidFight.droids.RocketDroid;
+import task_07_02_droidFight.droids.*;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -14,9 +11,9 @@ public class Model {
 
 
     Scanner sc = new Scanner(System.in);
-    int choise;
     Droid fighter1;
     Droid fighter2;
+    DroidFactory df = new DroidFactory();
 
     public Model(){
 
@@ -28,24 +25,13 @@ public class Model {
     }
 
 
-    public Droid doChose(int choise) {
-        if (choise == 1){
-            return new BattleDroid();
-        }else if(choise == 2){
-            return new RocketDroid();
-        }else if(choise ==3){
-            return new NinjaDroid();
-
-        }
-        return null;
-    }
 
     public void initFisrtFighter() throws IOException {
-        this.fighter1 = doChose(askChose());
+        this.fighter1 = df.doChose(askChose());
     }
 
     public void initSecondFighter() throws IOException{
-        this.fighter2 = doChose(askChose());
+        this.fighter2 = df.doChose(askChose());
     }
 
 
@@ -53,6 +39,14 @@ public class Model {
 
         fightBetweenTwoDroids(fighter1,fighter2);
 
+    }
+
+
+    public void fightBetweenTwoDroids(Droid d1, Droid d2){
+        while(giveLoser() == null){
+                d1.fight(d2);
+                d2.fight(d1);
+        }
     }
 
     public Droid giveLoser(){
@@ -66,11 +60,4 @@ public class Model {
 
     }
 
-    public void fightBetweenTwoDroids(Droid d1, Droid d2){
-        while(giveLoser() == null){
-                d1.fight(d2);
-                d2.fight(d1);
-        }
-
-    }
 }
