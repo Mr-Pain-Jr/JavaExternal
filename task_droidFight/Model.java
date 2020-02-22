@@ -27,11 +27,11 @@ public class Model {
 
 
     public void initFisrtFighter() throws IOException {
-        this.fighter1 = df.doChose(askChose());
+        this.fighter1 = df.bakeDroid(askChose());
     }
 
     public void initSecondFighter() throws IOException{
-        this.fighter2 = df.doChose(askChose());
+        this.fighter2 = df.bakeDroid(askChose());
     }
 
 

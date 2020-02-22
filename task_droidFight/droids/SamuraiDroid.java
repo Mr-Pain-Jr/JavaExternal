@@ -1,6 +1,6 @@
 package task_droidFight.droids;
 
-public class SamuraiDroid extends Droid {
+public class SamuraiDroid extends Droid implements MeleeDroid{
 
     public SamuraiDroid(){
         this.damageLevel=50;
@@ -30,7 +30,11 @@ public class SamuraiDroid extends Droid {
 
     @Override
     public String toString() {
-        return "Samurai Droid";
+        return "Melee Samurai Droid";
+    }
+    @Override
+    public int compareTo(Droid o) {
+        return this.damageLevel - o.damageLevel;
     }
 }
 

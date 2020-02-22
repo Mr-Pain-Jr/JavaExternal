@@ -4,9 +4,10 @@ public class DroidFactory {
 
 
     public DroidFactory() {
+
     }
 
-    public Droid doChose(int choise) {
+    public Droid bakeDroid(int choise) {
         if (choise == 1){
             return new BattleDroid();
         }else if(choise == 2){

@@ -1,6 +1,6 @@
 package task_droidFight.droids;
 
-public class RocketDroid extends Droid {
+public class RocketDroid extends Droid implements RangedDroid{
 
 
 
@@ -36,7 +36,11 @@ public class RocketDroid extends Droid {
 
     @Override
     public String toString() {
-        return "Rocket Droid";
+        return "Ranged Rocket Droid";
+    }
+    @Override
+    public int compareTo(Droid o) {
+        return this.damageLevel - o.damageLevel;
     }
 
 

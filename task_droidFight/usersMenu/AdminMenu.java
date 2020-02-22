@@ -26,7 +26,7 @@ public class AdminMenu extends Model {
         }else if(i == 2){
             System.out.println("Please choose what droid you want to add.");
             int d = sc.nextInt();
-           addDroid(new DroidFactory().doChose(d));
+           addDroid(new DroidFactory().bakeDroid(d));
         }else if(i == 3){
             System.out.println("What droid you want to edit? (enter his number in array)");
             int edit = sc.nextInt();
