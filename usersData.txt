@@ -2,3 +2,4 @@ user;mail@gmail.com;pass123
 user;gmail@gmail.com;123pasd
 user;mrpainjr@gmail.com;balbaxa123
 admin;mrapinjr@mgial.com;12312fes
+admin;tulubos@link.wolf;asdfghj
